@@ -1,0 +1,5 @@
+build/
+vendor/
+.sw[a-p]
+.*.sw[a-p]
+Session.vim

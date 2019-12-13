@@ -1,0 +1,14 @@
+{"level":"info","ts":1576167467.5720303,"logger":"cmd","msg":"Operator Version: 0.0.1"}
+{"level":"info","ts":1576167467.5720975,"logger":"cmd","msg":"Go Version: go1.13.3"}
+{"level":"info","ts":1576167467.5721173,"logger":"cmd","msg":"Go OS/Arch: linux/amd64"}
+{"level":"info","ts":1576167467.5721354,"logger":"cmd","msg":"Version of operator-sdk: v0.12.0"}
+{"level":"info","ts":1576167467.574965,"logger":"leader","msg":"Trying to become the leader."}
+{"level":"info","ts":1576167467.5751193,"logger":"leader","msg":"Skipping leader election; not running in a cluster."}
+{"level":"info","ts":1576167468.615742,"logger":"controller-runtime.metrics","msg":"metrics server is starting to listen","addr":"0.0.0.0:8383"}
+{"level":"error","ts":1576167468.6160917,"logger":"controller-runtime.metrics","msg":"metrics server failed to listen. You may want to disable the metrics server or use another port if it is due to conflicts","error":"error listening on 0.0.0.0:8383: listen tcp 0.0.0.0:8383: bind: address already in use","stacktrace":"github.com/go-logr/zapr.(*zapLogger).Error\n\t/home/igor18/dev/go/k8s_operator_simple/vendor/github.com/go-logr/zapr/zapr.go:128\nsigs.k8s.io/controller-runtime/pkg/metrics.NewListener\n\t/home/igor18/dev/go/k8s_operator_simple/vendor/sigs.k8s.io/controller-runtime/pkg/metrics/listener.go:44\nsigs.k8s.io/controller-runtime/pkg/manager.New\n\t/home/igor18/dev/go/k8s_operator_simple/vendor/sigs.k8s.io/controller-runtime/pkg/manager/manager.go:259\nmain.main\n\t/home/igor18/dev/go/k8s_operator_simple/cmd/manager/main.go:94\nruntime.main\n\t/home/igor18/.go/src/runtime/proc.go:203"}
+{"level":"error","ts":1576167468.616214,"logger":"cmd","msg":"","error":"error listening on 0.0.0.0:8383: listen tcp 0.0.0.0:8383: bind: address already in use","stacktrace":"github.com/go-logr/zapr.(*zapLogger).Error\n\t/home/igor18/dev/go/k8s_operator_simple/vendor/github.com/go-logr/zapr/zapr.go:128\nmain.main\n\t/home/igor18/dev/go/k8s_operator_simple/cmd/manager/main.go:100\nruntime.main\n\t/home/igor18/.go/src/runtime/proc.go:203"}
+this is not json
+{ still is not json
+{ invalid: "json" }
+{"level":"info","ts":1576167467.5720312,"logger":"cmd","msg":"valid json"}
+{"valid": "json", "without": "any", "supported": "tag"}
