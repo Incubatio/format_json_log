@@ -3,10 +3,9 @@ Format_JSON_Log
 
 *Improve readability of json log in your tty !*
 
-
 **Get Started:**
 
-> from example_log.json:
+> from a text log that contains json strings:
 
 .. code-block:: json
 
@@ -20,7 +19,8 @@ Format_JSON_Log
 
   .. image:: https://raw.githubusercontent.com/incubatio/format_json_log/master/assets/formatted_log.jpg
 
-wow, much color, such readability !
+*wow, much color, such readability !*
 
+----
 
-**Build, Test, Install**: check the Makefile at the root of the project.
+To **build**, **test** and **install**: use/check the Makefile at the root of the project.
