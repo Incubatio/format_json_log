@@ -11,4 +11,8 @@ this is not json
 { still is not json
 { invalid: "json" }
 {"level":"info","ts":1576167467.5720312,"logger":"cmd","msg":"valid json"}
-{"valid": "json", "without": "any", "supported": "tag"}
+{"msg": "valid json raw data", "non-log": "tag"}
+{"level": "info", "msg": "with some unsupported tag", "hidden": "tag"}
+{"level": "info", "error": "lol", "unsupported": "tag"}
+{"level": "info", "error": "no stacktrace", "stacktrace": "boom"}
+{"level": "Info_lol", "invalid": "level"}
